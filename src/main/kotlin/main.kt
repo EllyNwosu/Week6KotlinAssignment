@@ -1,10 +1,8 @@
 fun main() {
-    println(mylover(4, 4))
-    println(mylover(3, 11))
-    println(mylover(22, 17))
-
+    println(mylove(4, 4))
+    println(mylove(3, 11))
+    println(mylove(22, 17))
 }
-
-fun mylover(luv1: Int, luv2: Int): Boolean {
-    return luv1 % 2 !== luv2 % 2;
+fun mylove(love1: Int, love2: Int): Boolean {
+    return love1 % 2 !== love2 % 2;
 }
